@@ -183,10 +183,10 @@ commit message 規範：
   - `docs:` 用於修改文件
   - `refactor:` 用於重構現有代碼而不改變功能
   - `test:` 用於添加或修改測試
-  - `style: 格式 (不影響程式碼運行的變動 white-space, formatting, missing semi colons, etc)。
-  - `perf: 改善效能 (A code change that improves performance)。
-  - `chore: 建構程序或輔助工具的變動 (maintain)。
-  - `revert: 撤銷回覆先前的 commit 例如：revert: type(scope): subject (回覆版本：xxxx)。
+  - `style:` 格式 (不影響程式碼運行的變動 white-space, formatting, missing semi colons, etc)。
+  - `perf:` 改善效能 (A code change that improves performance)。
+  - `chore:` 建構程序或輔助工具的變動 (maintain)。
+  - `revert:` 撤銷回覆先前的 commit 例如：revert: type(scope): subject (回覆版本：xxxx)。
   - 例如：`feat: Add user authentication` 或 `fix: Correct issue with login logic`
 
 - **相關問題或任務 ID**（選填）：如果這次提交解決了一個 issue 或是與某個工作任務相關，可以在描述中提到 issue 編號，這樣便於追溯：

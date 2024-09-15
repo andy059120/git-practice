@@ -93,7 +93,7 @@ Tree 物件 是專案的目錄結構，它包含指向檔案內容（Blob）或�
 當處於分離的 HEAD 狀態（detached HEAD）時，它會直接指向某個具體的 commit（雜湊值）。
 當每次切換分支（git checkout）、創建新的分支，或進入分離 HEAD 狀態時，HEAD 檔案的內容會更新以反映當前的狀態。
 
-### 三者之間的關係：
+### HEAD, Branch, Commit 三者之間的關係：
 
 HEAD 通常指向一個分支，而這個分支指向某個 commit。
 Branch 只是指向 commit 的指標，而 commit 是對文件系統狀態的記錄。

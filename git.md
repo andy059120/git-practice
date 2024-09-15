@@ -66,7 +66,7 @@ Tree 可以嵌套其他 Tree：假設你有一個目錄裡面還有子目錄，G
 Blob 是樹葉（儲存實際的檔案內容），Tree 是樹枝（組織檔案和目錄的結構）。
 每當有一個目錄時，Git 就創建一個 Tree，Tree 指向它下面的檔案（Blob）和其他子目錄（Tree）。
 
-### 接下來加入 Commit 的概念。
+### 接下來加入 Commit 的概念
 
 回憶一下單向鏈結串列（Singly Linked List），其中每個節點（Node）包含兩個部分：
 資料部分：存儲該節點的資料（在 Git 中，可以視為提交的內容）。
@@ -87,13 +87,13 @@ Tree 物件 是專案的目錄結構，它包含指向檔案內容（Blob）或�
 
 它指向某個具體的 commit。當你在某個分支上進行新的 commit 時，這個分支會自動向前移動，指向最新的 commit。分支讓你能夠在同一個儲存庫中同時進行多個不同的開發流程，互不干擾。
 
-### HEAD 是 Git 中的特殊指標，指向當前所在的分支或 commit。
+### HEAD 是 Git 中的特殊指標，指向當前所在的分支或 commit
 
 例如現在在 main 分支上時，HEAD 的內容會是 ref: refs/heads/main 的文字。
 當處於分離的 HEAD 狀態（detached HEAD）時，它會直接指向某個具體的 commit（雜湊值）。
 當每次切換分支（git checkout）、創建新的分支，或進入分離 HEAD 狀態時，HEAD 檔案的內容會更新以反映當前的狀態。
 
-三者之間的關係：
+### 三者之間的關係：
 
 HEAD 通常指向一個分支，而這個分支指向某個 commit。
 Branch 只是指向 commit 的指標，而 commit 是對文件系統狀態的記錄。

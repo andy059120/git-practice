@@ -26,7 +26,7 @@
 我使用一個手邊的 Flutter 專案來測試：
 
 專案樹：
-![projectTree](/assets/img/prpjectTree.png)
+https://hackmd.io/_uploads/SJdwgEVT0.png
 
 表格：
 
@@ -54,7 +54,7 @@
 - 檔案/目錄名稱：檔案或目錄的名稱。
 
 圖片：
-![BlobTest](https://hackmd.io/_uploads/BJLMGaQ6R.png)
+https://hackmd.io/_uploads/BJLMGaQ6R.png
 
 ### Blob 和 Tree 是如何合作的？
 
@@ -66,7 +66,7 @@ Tree 可以嵌套其他 Tree：假設你有一個目錄裡面還有子目錄，G
 Blob 是樹葉（儲存實際的檔案內容），Tree 是樹枝（組織檔案和目錄的結構）。
 每當有一個目錄時，Git 就創建一個 Tree，Tree 指向它下面的檔案（Blob）和其他子目錄（Tree）。
 
-### 接下來加入 Commit 的概念
+### 接下來加入 Commit 的概念。
 
 回憶一下單向鏈結串列（Singly Linked List），其中每個節點（Node）包含兩個部分：
 資料部分：存儲該節點的資料（在 Git 中，可以視為提交的內容）。

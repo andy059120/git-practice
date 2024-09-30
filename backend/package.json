@@ -1,0 +1,15 @@
+{
+  "name": "express-practice",
+  "version": "1.0.0",
+  "description": "express 專案範例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andy059120",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}

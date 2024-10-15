@@ -106,10 +106,15 @@ sudo tail -f /var/log/nginx/error.log
 
 ### 過程中遭遇的問題
 
+![](../asset/img/error.png)
+
 - 使用 pm2 啟動 express ，status 出現 errored
-- ![error](https://hackmd.io/_uploads/H1CuETqJ1g.png)
 - 解決方法：記得 npm install
+- 其他：Nginx 的配置檔案結構感覺蠻複雜，可以花時間去研究
 
 ### 列出完成本作業時參考的資料
 
 - [Linux 的檔案權限與目錄配置](https://linux.vbird.org/linux_basic/centos7/0210filepermission.php)
+- [Amazon Elastic Compute Cloud Documentation](https://docs.aws.amazon.com/ec2/?icmpid=docs_homepage_featuredsvcs)
+- [用 Nginx 伺服器建立反向代理](https://ithelp.ithome.com.tw/articles/10221704)
+- [nginx 反向代理設定教學](https://hackmd.io/@shaung08/Bk9xvwN5F)

@@ -26,7 +26,7 @@
 我使用一個手邊的 Flutter 專案來測試：
 
 專案樹：
-https://hackmd.io/_uploads/SJdwgEVT0.png
+![](/asset/img/projectTree.png)
 
 表格：
 
@@ -54,7 +54,7 @@ https://hackmd.io/_uploads/SJdwgEVT0.png
 - 檔案/目錄名稱：檔案或目錄的名稱。
 
 圖片：
-https://hackmd.io/_uploads/BJLMGaQ6R.png
+![](/asset/img/BlobTest.png)
 
 ### Blob 和 Tree 是如何合作的？
 
